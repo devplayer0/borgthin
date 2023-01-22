@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "borgthin"
+version = "0.1.0"
+description = ""
+authors = ["Jack O'Sullivan <j@ckos.ie>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+borgbackup = "2.0.0b4"
+
+[tool.poetry.scripts]
+borgthin = 'borgthin:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
